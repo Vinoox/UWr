@@ -1,0 +1,7 @@
+uruchamianie allegro
+allegro zainicjalizowane
+allegro/image zainicjalizowane
+allegro/dialog zainicjalizowane
+allegro/font zainicjalizowane
+allegro/ttf zainicjalizowane
+blad inicjalizacji czcionki

@@ -1,0 +1,32 @@
+(* (+ 2 2) 5) -> 20
+
+(* (+ 2 2) (5) ) -> błąd 5 nie jest procedura
+
+(*(+(2 2) 5) ) -> błąd (2 2) nie jest procedura
+
+(*(+ 2
+    2) 5) -> 20
+
+(5 * 4) -> błąd składnia nie jest prefixowa
+
+(5 * (2 + 2) ) -> błąd składnia nie jest prefixowa 
+
+((+ 2 3) ) -> błąd wynik (+ 2 3) nie jest procedura
+
++ -> procedura
+
+( define + (* 2 3) ) -> za plusa wstawi 6
+
++ -> 6
+
+(* 2 +) -> (* 2 6) = 12
+
+( define ( five ) 5) -> definiuje procedure five ktora zwraca 5
+
+( define four 4) -> za four wstawia 4
+
+
+( five ) -> 5
+four -> 4
+five -> procedura#5
+( four ) -> błąd nie jest procedura

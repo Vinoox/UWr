@@ -1,0 +1,246 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(502,5): warning MSB8004: Katalog Intermediate nie kończy się ukośnikiem. To wystąpienie kompilacji doda ukośnik, ponieważ jest on niezbędny, aby możliwa była poprawna ocena katalogu Intermediate.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(503,5): warning MSB8004: Katalog Output nie kończy się ukośnikiem. To wystąpienie kompilacji doda ukośnik, ponieważ jest on niezbędny, aby możliwa była poprawna ocena katalogu Output.
+  enemy.c
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\bitmap_lock.h(29,1): warning C4820: „ALLEGRO_LOCKED_REGION”: dopełnienie bajtów „4” dodano po składowa danych „pixel_size”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(103,4): warning C4820: „ALLEGRO_ANY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(109,4): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(113,1): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „orientation”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(118,4): warning C4820: „ALLEGRO_JOYSTICK_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(130,4): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(136,1): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „repeat”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(142,4): warning C4820: „ALLEGRO_MOUSE_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(160,4): warning C4820: „ALLEGRO_TIMER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(169,4): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(180,1): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(190,4): warning C4820: „ALLEGRO_USER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\touch_input.h(59,35): warning C4820: „ALLEGRO_TOUCH_STATE”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\allegro_native_dialog.h(53,13): warning C4820: „ALLEGRO_MENU_INFO”: dopełnienie bajtów „2” dodano po składowa danych „id”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(55,16): warning C4820: „node”: dopełnienie bajtów „3” dodano po składowa danych „canShoot”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(56,16): warning C4820: „node”: dopełnienie bajtów „4” dodano po składowa danych „towerRange”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(74,1): warning C4820: „enemy”: dopełnienie bajtów „7” dodano po składowa danych „active”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(79,27): warning C4820: „Bullet”: dopełnienie bajtów „4” dodano po składowa danych „y”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(84,1): warning C4820: „Bullet”: dopełnienie bajtów „7” dodano po składowa danych „active”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(84,2): warning C4091: "typedef ": zignorowano na lewo od "Bullet" podczas gdy brak deklaracji zmiennej
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\enemy.c(28,55): warning C4133: "funkcja": niezgodne typy - od "Point *" do "Point *"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\enemy.c(28,62): warning C4133: "=": niezgodne typy - od "Point *" do "Point *"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\enemy.c(80,16): warning C4431: brak specyfikatora typu - założono, że int. Uwaga: C nie obsługuje już domyślnie typu int
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\enemy.c(90,55): warning C4133: "=": niezgodne typy - od "Point *" do "Point *"
+  sceneEasyLevel.c
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\bitmap_lock.h(29,1): warning C4820: „ALLEGRO_LOCKED_REGION”: dopełnienie bajtów „4” dodano po składowa danych „pixel_size”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(103,4): warning C4820: „ALLEGRO_ANY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(109,4): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(113,1): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „orientation”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(118,4): warning C4820: „ALLEGRO_JOYSTICK_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(130,4): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(136,1): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „repeat”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(142,4): warning C4820: „ALLEGRO_MOUSE_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(160,4): warning C4820: „ALLEGRO_TIMER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(169,4): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(180,1): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(190,4): warning C4820: „ALLEGRO_USER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\touch_input.h(59,35): warning C4820: „ALLEGRO_TOUCH_STATE”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\allegro_native_dialog.h(53,13): warning C4820: „ALLEGRO_MENU_INFO”: dopełnienie bajtów „2” dodano po składowa danych „id”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(55,16): warning C4820: „node”: dopełnienie bajtów „3” dodano po składowa danych „canShoot”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(56,16): warning C4820: „node”: dopełnienie bajtów „4” dodano po składowa danych „towerRange”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(74,1): warning C4820: „enemy”: dopełnienie bajtów „7” dodano po składowa danych „active”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(79,27): warning C4820: „Bullet”: dopełnienie bajtów „4” dodano po składowa danych „y”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(84,1): warning C4820: „Bullet”: dopełnienie bajtów „7” dodano po składowa danych „active”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(84,2): warning C4091: "typedef ": zignorowano na lewo od "Bullet" podczas gdy brak deklaracji zmiennej
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(14,23): warning C4255: "toolbarInit": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(26,28): warning C4255: "bulletInit": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneLevel.h(6,29): warning C4255: "sceneEasyLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneLevel.h(8,31): warning C4255: "sceneMediumLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneLevel.h(10,29): warning C4255: "sceneHardLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.h(4,24): warning C4255: "sceneMenuCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.h(6,24): warning C4255: "sceneHelpCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(22,19): warning C4255: "init": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(23,19): warning C4255: "draw": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(24,22): warning C4255: "destroy": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(26,19): warning C4255: "tick": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(27,21): warning C4255: "update": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(29,20): warning C4255: "init": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(45,12): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(45,9): warning C4024: "getMap": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(53,20): warning C4255: "draw": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(84,23): warning C4255: "destroy": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(104,28): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(104,25): warning C4024: "towerFunction": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(107,28): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(107,25): warning C4024: "towerFunction": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(110,28): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(110,25): warning C4024: "towerFunction": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(113,28): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(113,25): warning C4024: "towerFunction": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(95,52): warning C4100: "dz": parametr formalny, do którego nie istnieje odwołanie
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(95,29): warning C4100: "btn": parametr formalny, do którego nie istnieje odwołanie
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(140,22): warning C4255: "update": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(143,15): warning C4242: "=": konwersja z "int64_t" do "int", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(149,1): warning C4255: "sceneEasyLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(153,26): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(154,20): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(155,26): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(157,24): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+  sceneHardLevel.c
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\bitmap_lock.h(29,1): warning C4820: „ALLEGRO_LOCKED_REGION”: dopełnienie bajtów „4” dodano po składowa danych „pixel_size”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(103,4): warning C4820: „ALLEGRO_ANY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(109,4): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(113,1): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „orientation”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(118,4): warning C4820: „ALLEGRO_JOYSTICK_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(130,4): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(136,1): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „repeat”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(142,4): warning C4820: „ALLEGRO_MOUSE_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(160,4): warning C4820: „ALLEGRO_TIMER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(169,4): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(180,1): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(190,4): warning C4820: „ALLEGRO_USER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\touch_input.h(59,35): warning C4820: „ALLEGRO_TOUCH_STATE”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\allegro_native_dialog.h(53,13): warning C4820: „ALLEGRO_MENU_INFO”: dopełnienie bajtów „2” dodano po składowa danych „id”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(55,16): warning C4820: „node”: dopełnienie bajtów „3” dodano po składowa danych „canShoot”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(56,16): warning C4820: „node”: dopełnienie bajtów „4” dodano po składowa danych „towerRange”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(74,1): warning C4820: „enemy”: dopełnienie bajtów „7” dodano po składowa danych „active”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(79,27): warning C4820: „Bullet”: dopełnienie bajtów „4” dodano po składowa danych „y”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(84,1): warning C4820: „Bullet”: dopełnienie bajtów „7” dodano po składowa danych „active”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(84,2): warning C4091: "typedef ": zignorowano na lewo od "Bullet" podczas gdy brak deklaracji zmiennej
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(14,23): warning C4255: "toolbarInit": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(26,28): warning C4255: "bulletInit": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneLevel.h(6,29): warning C4255: "sceneEasyLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneLevel.h(8,31): warning C4255: "sceneMediumLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneLevel.h(10,29): warning C4255: "sceneHardLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.h(4,24): warning C4255: "sceneMenuCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.h(6,24): warning C4255: "sceneHelpCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(23,20): warning C4255: "init": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(39,12): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(39,9): warning C4024: "getMap": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(47,20): warning C4255: "draw": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(79,23): warning C4255: "destroy": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(99,28): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(99,25): warning C4024: "towerFunction": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(102,28): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(102,25): warning C4024: "towerFunction": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(105,28): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(105,25): warning C4024: "towerFunction": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(108,28): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(108,25): warning C4024: "towerFunction": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(90,52): warning C4100: "dz": parametr formalny, do którego nie istnieje odwołanie
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(90,29): warning C4100: "btn": parametr formalny, do którego nie istnieje odwołanie
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(135,22): warning C4255: "update": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(138,15): warning C4242: "=": konwersja z "int64_t" do "int", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(143,1): warning C4255: "sceneHardLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(147,26): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(148,20): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(149,26): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneHardLevel.c(151,24): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+  sceneMediumLevel.c
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\bitmap_lock.h(29,1): warning C4820: „ALLEGRO_LOCKED_REGION”: dopełnienie bajtów „4” dodano po składowa danych „pixel_size”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(103,4): warning C4820: „ALLEGRO_ANY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(109,4): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(113,1): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „orientation”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(118,4): warning C4820: „ALLEGRO_JOYSTICK_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(130,4): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(136,1): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „repeat”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(142,4): warning C4820: „ALLEGRO_MOUSE_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(160,4): warning C4820: „ALLEGRO_TIMER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(169,4): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(180,1): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(190,4): warning C4820: „ALLEGRO_USER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\touch_input.h(59,35): warning C4820: „ALLEGRO_TOUCH_STATE”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\allegro_native_dialog.h(53,13): warning C4820: „ALLEGRO_MENU_INFO”: dopełnienie bajtów „2” dodano po składowa danych „id”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(55,16): warning C4820: „node”: dopełnienie bajtów „3” dodano po składowa danych „canShoot”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(56,16): warning C4820: „node”: dopełnienie bajtów „4” dodano po składowa danych „towerRange”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(74,1): warning C4820: „enemy”: dopełnienie bajtów „7” dodano po składowa danych „active”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(79,27): warning C4820: „Bullet”: dopełnienie bajtów „4” dodano po składowa danych „y”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(84,1): warning C4820: „Bullet”: dopełnienie bajtów „7” dodano po składowa danych „active”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(84,2): warning C4091: "typedef ": zignorowano na lewo od "Bullet" podczas gdy brak deklaracji zmiennej
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(14,23): warning C4255: "toolbarInit": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(26,28): warning C4255: "bulletInit": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneLevel.h(6,29): warning C4255: "sceneEasyLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneLevel.h(8,31): warning C4255: "sceneMediumLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneLevel.h(10,29): warning C4255: "sceneHardLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.h(4,24): warning C4255: "sceneMenuCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.h(6,24): warning C4255: "sceneHelpCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(23,19): warning C4255: "init": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(24,19): warning C4255: "draw": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(25,22): warning C4255: "destroy": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(27,19): warning C4255: "tick": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(28,21): warning C4255: "update": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(30,20): warning C4255: "init": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(46,12): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(46,9): warning C4024: "getMap": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(54,20): warning C4255: "draw": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(86,23): warning C4255: "destroy": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(106,28): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(106,25): warning C4024: "towerFunction": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(109,28): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(109,25): warning C4024: "towerFunction": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(112,28): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(112,25): warning C4024: "towerFunction": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(115,28): warning C4047: "funkcja": "int *" różni się w poziomach operatorów pośrednich od "int [10][10]"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(115,25): warning C4024: "towerFunction": różne typy dla formalnego i rzeczywistego parametru 1
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(97,52): warning C4100: "dz": parametr formalny, do którego nie istnieje odwołanie
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(97,29): warning C4100: "btn": parametr formalny, do którego nie istnieje odwołanie
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(142,22): warning C4255: "update": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(145,15): warning C4242: "=": konwersja z "int64_t" do "int", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(150,1): warning C4255: "sceneMediumLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(154,26): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(155,20): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(156,26): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMediumLevel.c(158,24): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+  tower.c
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\bitmap_lock.h(29,1): warning C4820: „ALLEGRO_LOCKED_REGION”: dopełnienie bajtów „4” dodano po składowa danych „pixel_size”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(103,4): warning C4820: „ALLEGRO_ANY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(109,4): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(113,1): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „orientation”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(118,4): warning C4820: „ALLEGRO_JOYSTICK_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(130,4): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(136,1): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „repeat”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(142,4): warning C4820: „ALLEGRO_MOUSE_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(160,4): warning C4820: „ALLEGRO_TIMER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(169,4): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(180,1): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(190,4): warning C4820: „ALLEGRO_USER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\touch_input.h(59,35): warning C4820: „ALLEGRO_TOUCH_STATE”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\allegro_native_dialog.h(53,13): warning C4820: „ALLEGRO_MENU_INFO”: dopełnienie bajtów „2” dodano po składowa danych „id”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(55,16): warning C4820: „node”: dopełnienie bajtów „3” dodano po składowa danych „canShoot”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(56,16): warning C4820: „node”: dopełnienie bajtów „4” dodano po składowa danych „towerRange”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(74,1): warning C4820: „enemy”: dopełnienie bajtów „7” dodano po składowa danych „active”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(79,27): warning C4820: „Bullet”: dopełnienie bajtów „4” dodano po składowa danych „y”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(84,1): warning C4820: „Bullet”: dopełnienie bajtów „7” dodano po składowa danych „active”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\game.h(84,2): warning C4091: "typedef ": zignorowano na lewo od "Bullet" podczas gdy brak deklaracji zmiennej
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(14,23): warning C4255: "toolbarInit": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(26,28): warning C4255: "bulletInit": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(45,14): warning C4242: "=": konwersja z "int" do "char", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(30,18): warning C4242: "inicjowanie": konwersja z "int" do "char", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(139,94): warning C4029: zadeklarowana formalna lista parametrów różniąca się od definicji
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(210,24): warning C4255: "toolbarInit": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(328,21): warning C4242: "=": konwersja z "int" do "short", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(329,13): warning C4242: "=": konwersja z "int" do "short", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(330,13): warning C4242: "=": konwersja z "int" do "short", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(362,41): warning C4242: "funkcja": konwersja z "int" do "short", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(362,49): warning C4242: "funkcja": konwersja z "int" do "short", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(365,42): warning C4242: "funkcja": konwersja z "int" do "short", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(365,49): warning C4242: "funkcja": konwersja z "int" do "short", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(370,42): warning C4242: "funkcja": konwersja z "int" do "short", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(370,50): warning C4242: "funkcja": konwersja z "int" do "short", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(373,42): warning C4242: "funkcja": konwersja z "int" do "short", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(373,50): warning C4242: "funkcja": konwersja z "int" do "short", możliwa utrata danych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(480,29): warning C4255: "bulletInit": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+  Generowanie kodu...
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(196): warning C5045: Kompilator wstawi kroki zaradcze dla luki Spectre w przypadku obciążenia pamięci, jeśli określono przełącznik /Qspectre
+  D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(196) : uwaga: sprawdzono zakres indeksu „segmentX” przez porównanie w tym wierszu
+  D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(196) : uwaga: wywołanie kanałów informacyjnych w tym wierszu
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(231): warning C5045: Kompilator wstawi kroki zaradcze dla luki Spectre w przypadku obciążenia pamięci, jeśli określono przełącznik /Qspectre
+  D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(226) : uwaga: sprawdzono zakres indeksu „i” przez porównanie w tym wierszu
+  D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(231) : uwaga: wywołanie kanałów informacyjnych w tym wierszu
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(191): warning C5045: Kompilator wstawi kroki zaradcze dla luki Spectre w przypadku obciążenia pamięci, jeśli określono przełącznik /Qspectre
+  D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(190) : uwaga: sprawdzono zakres indeksu „segmentY” przez porównanie w tym wierszu
+  D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(191) : uwaga: wywołanie kanałów informacyjnych w tym wierszu
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(186): warning C5045: Kompilator wstawi kroki zaradcze dla luki Spectre w przypadku obciążenia pamięci, jeśli określono przełącznik /Qspectre
+  D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(186) : uwaga: sprawdzono zakres indeksu „segmentX” przez porównanie w tym wierszu
+  D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(186) : uwaga: wywołanie kanałów informacyjnych w tym wierszu
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(181): warning C5045: Kompilator wstawi kroki zaradcze dla luki Spectre w przypadku obciążenia pamięci, jeśli określono przełącznik /Qspectre
+  D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(180) : uwaga: sprawdzono zakres indeksu „segmentY” przez porównanie w tym wierszu
+  D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(181) : uwaga: wywołanie kanałów informacyjnych w tym wierszu
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(228): warning C5045: Kompilator wstawi kroki zaradcze dla luki Spectre w przypadku obciążenia pamięci, jeśli określono przełącznik /Qspectre
+  D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(227) : uwaga: sprawdzono zakres indeksu „i” przez porównanie w tym wierszu
+  D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.c(228) : uwaga: wywołanie kanałów informacyjnych w tym wierszu
+  TowerDefence.vcxproj -> D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\Debug\TowerDefence.exe

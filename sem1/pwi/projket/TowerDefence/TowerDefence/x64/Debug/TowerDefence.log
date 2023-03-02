@@ -1,0 +1,70 @@
+﻿  sceneEasyLevel.c
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\bitmap_lock.h(29,1): warning C4820: „ALLEGRO_LOCKED_REGION”: dopełnienie bajtów „4” dodano po składowa danych „pixel_size”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(103,4): warning C4820: „ALLEGRO_ANY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(109,4): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(113,1): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „orientation”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(118,4): warning C4820: „ALLEGRO_JOYSTICK_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(130,4): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(136,1): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „repeat”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(142,4): warning C4820: „ALLEGRO_MOUSE_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(160,4): warning C4820: „ALLEGRO_TIMER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(169,4): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(180,1): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(190,4): warning C4820: „ALLEGRO_USER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\touch_input.h(59,35): warning C4820: „ALLEGRO_TOUCH_STATE”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\allegro_native_dialog.h(53,13): warning C4820: „ALLEGRO_MENU_INFO”: dopełnienie bajtów „2” dodano po składowa danych „id”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(12,27): warning C4820: „Bullet”: dopełnienie bajtów „4” dodano po składowa danych „y”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(16,2): warning C4091: "typedef ": zignorowano na lewo od "Bullet" podczas gdy brak deklaracji zmiennej
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(21,22): warning C4255: "createBadGuy": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneLevel.h(5,29): warning C4255: "sceneEasyLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneLevel.h(7,31): warning C4255: "sceneMediumLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(6,20): warning C4255: "init": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(15,20): warning C4255: "draw": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(20,23): warning C4255: "destroy": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(27,1): warning C4255: "sceneEasyLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(31,26): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(32,20): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneEasyLevel.c(33,26): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+  sceneMenu.c
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\bitmap_lock.h(29,1): warning C4820: „ALLEGRO_LOCKED_REGION”: dopełnienie bajtów „4” dodano po składowa danych „pixel_size”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(103,4): warning C4820: „ALLEGRO_ANY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(109,4): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(113,1): warning C4820: „ALLEGRO_DISPLAY_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „orientation”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(118,4): warning C4820: „ALLEGRO_JOYSTICK_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(130,4): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(136,1): warning C4820: „ALLEGRO_KEYBOARD_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „repeat”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(142,4): warning C4820: „ALLEGRO_MOUSE_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(160,4): warning C4820: „ALLEGRO_TIMER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(169,4): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(180,1): warning C4820: „ALLEGRO_TOUCH_EVENT”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\events.h(190,4): warning C4820: „ALLEGRO_USER_EVENT”: dopełnienie bajtów „4” dodano po składowa danych „type”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\touch_input.h(59,35): warning C4820: „ALLEGRO_TOUCH_STATE”: dopełnienie bajtów „3” dodano po składowa danych „primary”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\packages\Allegro.5.2.8\build\native\include\allegro5\allegro_native_dialog.h(53,13): warning C4820: „ALLEGRO_MENU_INFO”: dopełnienie bajtów „2” dodano po składowa danych „id”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.h(4,24): warning C4255: "sceneMenuCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(12,27): warning C4820: „Bullet”: dopełnienie bajtów „4” dodano po składowa danych „y”
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(16,2): warning C4091: "typedef ": zignorowano na lewo od "Bullet" podczas gdy brak deklaracji zmiennej
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\tower.h(21,22): warning C4255: "createBadGuy": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneLevel.h(5,29): warning C4255: "sceneEasyLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneLevel.h(7,31): warning C4255: "sceneMediumLevelCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(12,19): warning C4255: "init": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(13,19): warning C4255: "draw": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(14,22): warning C4255: "destroy": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(16,19): warning C4255: "quit": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(18,20): warning C4255: "init": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(30,20): warning C4255: "draw": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(34,23): warning C4255: "destroy": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(39,28): warning C4020: "buttonPresed": zbyt wiele parametrów rzeczywistych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(44,30): warning C4020: "buttonPresed": zbyt wiele parametrów rzeczywistych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(49,28): warning C4020: "buttonPresed": zbyt wiele parametrów rzeczywistych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(54,28): warning C4020: "buttonPresed": zbyt wiele parametrów rzeczywistych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(59,28): warning C4020: "buttonPresed": zbyt wiele parametrów rzeczywistych
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(38,52): warning C4100: "dz": parametr formalny, do którego nie istnieje odwołanie
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(38,29): warning C4100: "btn": parametr formalny, do którego nie istnieje odwołanie
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(67,20): warning C4255: "quit": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(72,1): warning C4255: "sceneMenuCreate": nie podano prototypu funkcji : konwertowanie "()" na "(void)"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(76,26): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(77,20): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(78,26): warning C4113: "void (__cdecl *)()" różni się listami parametrów od "funcPtr"
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\sceneMenu.c(80,20): warning C4113: "bool (__cdecl *)()" różni się listami parametrów od "funcPtrQuit"
+  Generowanie kodu...
+  TowerDefence.vcxproj -> D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\x64\Debug\TowerDefence.exe

@@ -1,0 +1,8 @@
+uruchamianie allegro
+allegro zainicjalizowane
+D:\programowanie\Uwr\projekt-zespol-7\TowerDefence\TowerDefence\x64\Debug
+allegro/image zainicjalizowane
+allegro/dialog zainicjalizowane
+allegro/font zainicjalizowane
+allegro/ttf zainicjalizowane
+blad inicjalizacji czcionki
