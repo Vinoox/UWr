@@ -7,7 +7,6 @@ namespace zad1
     class Program{
         static void Main(string[] args){
             RandomWordStream rws = new RandomWordStream();
-            PrimeStream ps = new PrimeStream();
             int x = 5;
             while(x > 0){
                 Console.WriteLine(rws.next());
@@ -17,7 +16,7 @@ namespace zad1
     }
 
     class IntStream{
-        private int num = 0;
+        public int num = 0;
 
         public virtual int next(){
             return num++;
@@ -33,7 +32,6 @@ namespace zad1
     }
 
     class PrimeStream : IntStream{
-        private int x;
 
         int Prime(int i){
             if(i < 2) return 0;
@@ -47,17 +45,17 @@ namespace zad1
         }
 
         override public int next(){
-            while(Prime(x = base.next()) != 1){
-                if(x == int.MaxValue){
+            while(Prime(base.next()) != 1){
+                if(num == int.MaxValue){
                     break;
                 }
             }
 
-            return x;
+            return num - 1;
         }
 
         public override bool eos(){
-            return x == int.MaxValue;
+            return num == int.MaxValue;
         }
 
         public override void reset(){
