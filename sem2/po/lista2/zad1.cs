@@ -1,100 +1,75 @@
-//Maciej Styś lista2 zad1
+// //Maciej Styś lista2 zad1
 
-using System;
+// using System;
 
-namespace zad1
-{
-    class Program{
-        static void Main(string[] args){
-            RandomWordStream rws = new RandomWordStream();
-            int x = 5;
-            while(x > 0){
-                Console.WriteLine(rws.next());
-                x--;
-            }
-        }
-    }
+// namespace zad1
+// {
+//     class Program{
+//         static void Main(string[] args){    //przykladowe dzialanie obiektu typu RandomWordStream
+//             RandomWordStream rws = new RandomWordStream();
+//             int x = 5;
+//             while(x > 0){
+//                 Console.WriteLine(rws.next());
+//                 x--;
+//             }
+//             rws.reset();
+//             Console.WriteLine(rws.next());
+//         }
+//     }
 
-    class IntStream{
-        public int num = 0;
+//     class IntStream{
+//         public int num = 0;
 
-        public virtual int next(){
-            return num++;
-        }
+//         public virtual int next() => num++;
 
-        public virtual bool eos(){
-            return num == int.MaxValue;
-        }
+//         public virtual bool eos() => num == int.MaxValue;
 
-        public virtual void reset(){
-            num = 0;
-        }
-    }
+//         public virtual void reset() => num = 0;
+//     }
 
-    class PrimeStream : IntStream{
+//     class PrimeStream : IntStream{
 
-        int Prime(int i){
-            if(i < 2) return 0;
-            if(i == 2) return 1;
+//         int Prime(int i){
+//             if(i < 2) return 0;
+//             if(i == 2) return 1;
 
-            for(int x = 2; x <= Math.Sqrt(i); x++){
-                if(i%x == 0) return 0;
-            }
+//             for(int x = 2; x <= Math.Sqrt(i); x++){
+//                 if(i%x == 0) return 0;
+//             }
 
-            return 1;
-        }
+//             return 1;
+//         }
 
-        override public int next(){
-            while(Prime(base.next()) != 1){
-                if(num == int.MaxValue){
-                    break;
-                }
-            }
+//         override public int next(){
+//             num++;
+//             while(Prime(num) != 1){
+//                 base.next();
+//             }
 
-            return num - 1;
-        }
+//             return num;
+//         }
+//     }
 
-        public override bool eos(){
-            return num == int.MaxValue;
-        }
+//     class RandomStream : IntStream{
 
-        public override void reset(){
-            base.reset();
-        }
+//         override public int next() => new Random().Next();
 
-    }
+//         override public bool eos() => false;
 
-    class RandomStream : IntStream{
+//     }
 
-        override public int next(){
-            return new Random().Next();
-        }
-    
-        override public bool eos(){
-            return false;
-        }
-    
-    }
+//     class RandomWordStream : PrimeStream{
+//         private RandomStream rs = new RandomStream();
 
-    class RandomWordStream{
-        private RandomStream rs = new RandomStream();
-        private PrimeStream ps = new PrimeStream();
+//         new public string next(){
+//             string word = "";
+//             int len = base.next();
+//             for(int x = 0; x < len; x++){
+//                 word += ((char)(rs.next() % 26 + 65));
+//             }
 
-        public string next(){
-            string word = "";
-            int len = ps.next();
-            for(int x = 0; x < len; x++){
-                char letter = (char)(rs.next() % 26 + 65);
-                word += letter.ToString();
-            }
+//             return word;
+//         }
+//     }
 
-            return word;
-        }
-
-        public void reset(){
-            ps.reset();
-        }
-
-    }
-
-}
+// }
