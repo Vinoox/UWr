@@ -1,5 +1,9 @@
 #lang racket
 
+;Zadanie 5.
+;Zaimplementuj procedurę (elem? x xs) sprawdzającą, czy element x znajduje
+;się na liście xs (użyj predykatu equal?)
+
 (define (elem? x xs)
     (cond
         [(null? xs) #f]

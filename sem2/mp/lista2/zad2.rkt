@@ -3,7 +3,9 @@
 ;fib rekurencyjnie
 (define (fib n)
     (if (< n 2) n 
-        (+ (fib(- n 1)) (fib (- n 2)))))
+        (+ (fib(- n 1)) (fib (- n 2)))
+    )
+)
 
 (fib 4)
 
@@ -22,11 +24,14 @@
 
 (define (fibI n)
 
-  (define (it f0 f1 n)
-    (if (= n 0) f0
-        (it f1 (+ f0 f1) (- n 1))))
+    (define (it f0 f1 n)
+        (if (= n 0) f0
+            (it f1 (+ f0 f1) (- n 1))
+        )
+    )
         
-    (it f0 f1 n))
+    (it f0 f1 n)
+)
 
 (fibI 5)
 

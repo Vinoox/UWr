@@ -1,5 +1,7 @@
 #lang racket
 
+;Zadanie 3.
+
 (define-struct matrix (a b c d) #:transparent)          ;[a b]
                                                         ;[c d]
 (define (matrix-mult m n)
@@ -16,11 +18,15 @@
 (define (matrix-expt m k)
     (define (it input acc n)
         (if (= n 0) acc
-            (it input (matrix-mult acc input) (- n 1))))
+            (it input (matrix-mult acc input) (- n 1))
+        )
+    )
 
-    (it m (make-matrix 1 1 1 1) k))
+    (it m (make-matrix 1 1 1 1) k)
+)
                                                      
 (define (fib-matrix k)                          ;[1 1]^k    -> [Fk+1  Fk ]
-    (matrix-expt (make-matrix 1 1 1 0) k))      ;[1 0]         [ Fk  Fk-1]
+    (matrix-expt (make-matrix 1 1 1 0) k)       ;[1 0]         [ Fk  Fk-1]
+)
 
 (matrix-b (fib-matrix 10))
