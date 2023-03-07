@@ -8,7 +8,9 @@ dowolnej listy|#
 
 (define (suffixes xs)
    (if (null? xs) (cons xs null)  
-      (cons xs (suffixes (cdr xs)))))
+      (cons xs (suffixes (cdr xs)))
+   )
+)
 
 (suffixes (list 4 7 1 9))
 

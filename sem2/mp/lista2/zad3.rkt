@@ -1,7 +1,7 @@
 #lang racket
 
 ;Zadanie 3.
-
+                                ;#:transparent - umozliwia inspekcje wartosci wewnatrz struktury
 (define-struct matrix (a b c d) #:transparent)          ;[a b]
                                                         ;[c d]
 (define (matrix-mult m n)   ;mnozenie macierzy
@@ -25,8 +25,8 @@
     (it m (make-matrix 1 1 1 1) k)
 )
                                                      
-(define (fib-matrix k)                          ;[1 1]^k    -> [Fk+1  Fk ]
-    (matrix-expt (make-matrix 1 1 1 0) k)       ;[1 0]         [ Fk  Fk-1]
+(define (fib-matrix k)                          ;[1 1]^k  ->  [Fk+1  Fk ]
+    (matrix-expt (make-matrix 1 1 1 0) k)       ;[1 0]        [ Fk  Fk-1]
 )
 
 (matrix-b (fib-matrix 4))
