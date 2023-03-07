@@ -1,8 +1,8 @@
 #lang racket
 
-;Zadanie 8.
-;Zaimplementuj procedurę (sorted? xs) sprawdzającą, czy zadana lista jest
-;posortowana niemalejąco.
+#|Zadanie 8.
+Zaimplementuj procedurę (sorted? xs) sprawdzającą, czy zadana lista jest
+posortowana niemalejąco.|#
 
 (define (sorted? xs)
     (define (it x xs)
@@ -16,5 +16,5 @@
     (it -inf.0 xs)
 )
 
-(sorted? (list 1 2 3 4 5))
-(sorted? (list 1 3 2 4 5))
+(sorted? (list 1 2 3 3 4 5))
+(sorted? (list 1 3 2 7 4 5))

@@ -1,8 +1,8 @@
 #lang racket
 
-;Zadanie 6.
-;Zaimplementuj procedurę (maximum xs) znajdującą największy element na
-;liście (względem predykatu >). Jeśli lista xs pusta, zwracana jest wartość -inf.0 (minus nieskończoność). 
+#|Zadanie 6.
+Zaimplementuj procedurę (maximum xs) znajdującą największy element na
+liście (względem predykatu >). Jeśli lista xs pusta, zwracana jest wartość -inf.0 (minus nieskończoność).|#
 
 (define (maximum xs)
     (define (it x xs)
