@@ -76,5 +76,5 @@ Mkfile.old
 dkms.conf
 
 *.csproj
-*bin/
-*obj/
+bin/
+obj/
