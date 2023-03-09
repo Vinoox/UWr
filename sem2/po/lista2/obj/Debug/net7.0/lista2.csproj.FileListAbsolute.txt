@@ -1,0 +1,15 @@
+D:\UWr\sem2\po\lista2\bin\Debug\net7.0\lista2.exe
+D:\UWr\sem2\po\lista2\bin\Debug\net7.0\lista2.deps.json
+D:\UWr\sem2\po\lista2\bin\Debug\net7.0\lista2.runtimeconfig.json
+D:\UWr\sem2\po\lista2\bin\Debug\net7.0\lista2.dll
+D:\UWr\sem2\po\lista2\bin\Debug\net7.0\lista2.pdb
+D:\UWr\sem2\po\lista2\obj\Debug\net7.0\lista2.csproj.AssemblyReference.cache
+D:\UWr\sem2\po\lista2\obj\Debug\net7.0\lista2.GeneratedMSBuildEditorConfig.editorconfig
+D:\UWr\sem2\po\lista2\obj\Debug\net7.0\lista2.AssemblyInfoInputs.cache
+D:\UWr\sem2\po\lista2\obj\Debug\net7.0\lista2.AssemblyInfo.cs
+D:\UWr\sem2\po\lista2\obj\Debug\net7.0\lista2.csproj.CoreCompileInputs.cache
+D:\UWr\sem2\po\lista2\obj\Debug\net7.0\lista2.dll
+D:\UWr\sem2\po\lista2\obj\Debug\net7.0\refint\lista2.dll
+D:\UWr\sem2\po\lista2\obj\Debug\net7.0\lista2.pdb
+D:\UWr\sem2\po\lista2\obj\Debug\net7.0\lista2.genruntimeconfig.cache
+D:\UWr\sem2\po\lista2\obj\Debug\net7.0\ref\lista2.dll

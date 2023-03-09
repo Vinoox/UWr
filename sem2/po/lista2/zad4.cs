@@ -43,14 +43,21 @@ namespace zad4
     }
 
     class LazyPrimeList : LazyIntList{
+        // int Prime(int i){
+        //     if(i < 2) return 0;
+        //     if(i == 2) return 1;
+
+        //     for(int x = 2; x <= Math.Sqrt(i); x++){
+        //         if(i%x == 0) return 0;
+        //     }
+
+        //     return 1;
+        // }
+
         int Prime(int i){
-            if(i < 2) return 0;
-            if(i == 2) return 1;
-
-            for(int x = 2; x <= Math.Sqrt(i); x++){
-                if(i%x == 0) return 0;
+            foreach(int num in list){
+                if(i%num == 0) return 0;
             }
-
             return 1;
         }
 
