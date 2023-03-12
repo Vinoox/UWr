@@ -84,16 +84,5 @@ namespace MyDictionary
             Console.WriteLine($"BRAK PODANEGO KLUCZA {key}");
             return;
         }
-
-
-        public void Show(){
-            Node? current = start;
-
-            while (current != null)
-            {
-                Console.WriteLine($"{current.key} {current.value}");
-                current = current.next;
-            }
-        }
     }
 }
