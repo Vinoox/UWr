@@ -1,5 +1,4 @@
-﻿//Maciej Styś lista3 zad1 środowisko: Visual Studio
-using System;
+﻿using System;
 
 namespace Lista
 {
