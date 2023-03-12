@@ -47,7 +47,6 @@
 *.lo
 
 # Shared objects (inc. Windows DLLs)
-*.dll
 *.so
 *.so.*
 *.dylib
@@ -78,3 +77,4 @@ dkms.conf
 *.csproj
 bin/
 obj/
+*.sln
