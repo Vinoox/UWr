@@ -1,5 +1,10 @@
 #lang racket
 
+#|ZAD4
+Złożenie funkcji f i g definiujemy (jak pamiętamy z przedmiotu „Logika dla informatyków”) jako funkcję x → f(g(x)).
+Zdefiniuj dwuargumentową procedurę my-compose, której wynikiem jest złożenie (jednoargumentowych) procedur przekazanych jej jako argumenty. 
+Używając modelu podstawieniowego, prześledźwykonanie wyrażeń|#
+
 (define (square x)
     (* x x)
 )
