@@ -1,46 +1,63 @@
 #lang racket
 
-(define (build-list n f)
-   (define (itr idx func dest)
-      (if (= idx dest)
-         `()
-         (cons (func idx dest) (itr (+ idx 1) func dest))))
-   (itr 0 f n))
+(define (bulid-list n f)
+   (define (it x f)
+      (if (= x n) (list)
+         (cons (f x) (it (+ x 1) f))
+      )
+   )
+   (it 0 f)
+)
 
-(define odejmij 
-   (lambda (x y) (- 0 (+ x 1))))
+;#1
+(define negate
+   (lambda (x) (- (+ x 1)))
+)
 
-(define odwroc
-   (lambda (x y) (/ 1 (+ x 1))))
+(define (negatives n)
+   (bulid-list n negate)
+)
 
-(define oparz 
-   (lambda (x y) (* 2 x)))
+(negatives 10)
 
-(define (pomoc-macierz mark idx dest)
-      (cond 
-         [(= idx dest) `()]
-         [(= idx mark) (cons 1 (pomoc-macierz mark (+ idx 1) dest))]
-         [else (cons 0 (pomoc-macierz mark (+ idx 1) dest))]))
 
-(define macierzuj
-   (lambda (x y ) (pomoc-macierz x 0 y)))
-
-(define (negatives n) 
-   (build-list n odejmij))
+;#2
+(define divide
+   (lambda (x) (/ 1 (+ x 1)))
+)
 
 (define (reciprocals n)
-   (build-list n odwroc))
+   (bulid-list n divide)
+)
+
+(reciprocals 10)
+
+
+;#3
+(define double
+   (lambda (x) (* x 2))
+)
 
 (define (evens n)
-   (build-list n oparz))
+   (bulid-list n double)
+)
+
+(evens 10)
+
+
+#|4               
+[[1 0 0 0]
+ [0 1 0 0]
+ [0 0 1 0]
+ [0 0 0 1]]
+|#
 
 (define (identityM n)
-   (build-list n macierzuj))
+   (define (helper i j)
+      (if (= j i) 1 0)
+   )
 
-(negatives 5)
+   (bulid-list n (lambda (i) (bulid-list n (lambda (j) (helper i j)))))
+)
 
-(reciprocals 5)
-
-(evens 5)
-
-(identityM 5)
+(identityM 3)
