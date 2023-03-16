@@ -12,25 +12,27 @@
             (node (leaf) 9 (leaf)))))
 
 
-(define (fold-tree f tree)
-    (if (and (leaf? node-l) (leaf? node-r)) node-l
-        (cond
-            [(leaf? node-l) (f (leaf) (fold-tree f node-r))]
-            [(leaf? node-r) (f (fold-tree f node-l) (leaf))]
-            [else (f (fold-tree f node-l) (fold-tree f node-r))]
-        )
+(define (fold-tree f startValue tree)
+    (cond
+        [(and (leaf? (node-l tree)) (leaf? (node-r tree))) (node-elem tree)]
+        [(leaf? (node-l tree)) (f startValue (fold-tree f startValue (node-r tree)))]
+        [(leaf? (node-r tree)) (f (fold-tree f startValue (node-l tree)) startValue)]
+        [else (f (node-elem tree) (fold-tree f startValue (node-l tree)) (fold-tree f startValue (node-r tree)))]
     )
 )
 
-(leaf? node-l)
 
 (define (tree-sum t)
-    (fold-tree + t)
+    (fold-tree + 0 t)
 )
 
 (tree-sum t)
 
-(define tree-flip t)
+(define (tree-flip t)
+    (t)
+)
+
+
 (define tree-height t)
 (define tree-span t)
 (define flatten t)
