@@ -21,7 +21,7 @@
 (define (insert-bst x t)
   (cond [(leaf? t) (node (leaf) x (leaf))]
         [(node? t)
-         (cond [(= x (node-elem t)) t]
+            (cond [(= x (node-elem t)) t]
                 [(< x (node-elem t))
                  (node (insert-bst x (node-l t))
                        (node-elem t)

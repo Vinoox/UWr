@@ -49,7 +49,7 @@
         tree    ;tree
     )
 )
-(tree-flip t)
+; (tree-flip t)
 
 
 ;(tree-height t) – wysokosć drzewa (liczba węzłów na najdłuższej ścieżce od korzenia do liścia)
@@ -61,7 +61,7 @@
         tree    ;tree
     )
 )
-(tree-height t)
+; (tree-height t)
 
 
 ;(tree-span t) – para złożona z wartości skrajnie prawego i skrajnie lewego węzła w drzewie 
@@ -74,7 +74,7 @@
         tree ;tree
     )
 )
-(tree-span t)
+; (tree-span t)
 
 
 ;(flatten t) – lista wszystkich elementów występujących w drzewie, w kolejności infksowej
@@ -86,5 +86,4 @@
         tree    ;tree
     )
 )
-
-(flatten t)
+;(flatten t)
