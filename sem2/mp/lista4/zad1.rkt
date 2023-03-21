@@ -4,8 +4,8 @@
 (define-struct node (l elem r) #:transparent)
 
 #|ZAD1
-Rozważ drzewa binarne z wykładu. Narysuj, jak w pamięci reprezentowane jest
-drzewo t zdefiniowane poniżej
+  Rozważ drzewa binarne z wykładu. Narysuj, jak w pamięci reprezentowane jest
+  drzewo t zdefiniowane poniżej
 |#
 
 (define t
@@ -26,17 +26,20 @@ drzewo t zdefiniowane poniżej
            () ()   () ()
 |#
 
-#| dodanie 7
+#| 
+  Pokaż, jak będzie wyglądał stan pamięci po wykonaniu wstawienia BST wartości
+  7. Które fragmenty drzewa t są współdzielone między drzewem t i 
+  (insert-bst7 t)
 
            5
-        /      \
-      2           8
-     / \        /    \
-    () ()      6      9
-              / \     / \
-             ()  7   () ()
-                / \
-               () ()
+        /     \
+      2         8
+     / \      /    \
+    () ()    6      9
+            / \     / \
+           ()  7   () ()
+              / \
+             () ()
 |#
 
 (define (insert-bst x t)
@@ -55,5 +58,7 @@ drzewo t zdefiniowane poniżej
                        (insert-bst x (node-r t)))])]))
 
 t
-(define x (insert-bst 8 t))
+(define x (insert-bst 7 t))
 x
+
+;wspoldzielone elementy 2, 9, ()
